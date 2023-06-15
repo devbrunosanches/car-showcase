@@ -36,7 +36,7 @@ const SearchManufacturer = ({ manufacturer, setManufacturer } : SearchManufactur
             className="search-manufacturer__input"
             displayValue={(manufacturer: string) =>
               manufacturer} onChange={(e) => setQuery(e.target.value)}
-            placeholder='Car manufacturers'
+            placeholder='Car brands'
           />
           <Transition
             as={Fragment}
